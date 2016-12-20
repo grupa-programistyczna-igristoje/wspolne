@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main()
+{    cout << "olek to gej"<<endl;
+    string imie, nazwisko,gg, telefon;
+    
+    cout <<"Program do tworzenia wizytowek"<<endl;
+    cout <<"Podaj swoje imie\n" << endl;
+    cin>>imie;
+    cout <<"Podaj swoje nazwisko\n" << endl;
+    cin>>nazwisko;
+    cout <<"Podaj swoj numer gg\n" << endl;
+    cin>>gg;
+    cout <<"Podaj swoj numer telefonu\n" << endl;
+    cin>>telefon;
+    system("cls");
+
+    cout<< "Imie:"<<imie<<endl;
+    cout<< "Nazwisko:"<<nazwisko<<endl;
+    cout<< "GG:"<<gg<<endl;
+    cout<< "Telefon:"<<telefon<<endl;
+
+
+    return 0;
+}
+
